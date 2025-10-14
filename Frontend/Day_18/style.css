@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    align-content: center;
+    justify-content: center;
+}
+.child{
+    background-color: violet;
+    border: 3px solid white;
+    height: 100px;
+    width: 100px;
+} */
+
+
+/* main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    grid-template-rows: 60px 1fr 80px;
+    grid-template-areas: "header header"
+                         "aside section"
+                         "footer footer";
+    grid-gap: 10px;
+    align-content: center;
+} */
+
+/* header{
+    background-color: gold;
+    grid-area: header;
+    
+}
+
+aside{
+    background-color: green;
+    grid-area: aside;
+}
+section{
+    background-color: blue;
+    grid-area: section;
+}
+footer{
+    background-color: red;
+    grid-area: footer;
+} */
+
+main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70px 1fr 1fr;
+    grid-template-areas: "header header header"
+                         "section section section"
+                          "div1 div2 div3";
+    grid-gap: 10px;
+}
+
+header{
+    background-color: gold;
+    grid-area: header;
+}
+
+section{
+    background-color: blue;
+    grid-area: section;
+}
+#div1{
+    background-color: green;
+    grid-area: div1;
+}
+#div2{
+    background-color: red;
+    grid-area: div2;
+}
+#div3{
+    background-color: purple;
+    grid-area: div3;
+}

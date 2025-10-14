@@ -1,0 +1,58 @@
+
+/* 
+    #outer{
+    height: 100px;
+    width: 200px;
+    background-color: aqua;
+}
+
+#inner{
+    height: 50%;
+    width: 50%;
+    background-color:blue;
+} */
+
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+   
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(./aot-beast-titan-5anb313mt2ea9pdi.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 80px;
+
+}
+
+h1{
+    
+}
+
+/* button{
+    margin: 100px;
+    padding: 10px 20px;
+    font-size: 10px;
+    font-weight: 600;
+    color: white;
+    background-color: aquamarine;
+    
+} */
+
+/* #box{
+    height: 50px;
+    width: 100px;
+    margin: 50px;
+    padding: 15px 30px;
+    background-color:aqua;
+    border: 5px solid darkblue;
+    border-radius: 50px;
+
+} */

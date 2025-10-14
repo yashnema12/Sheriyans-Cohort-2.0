@@ -1,0 +1,37 @@
+/*boiler plate of css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* @font-face {
+    font-family: woff;
+    src: url(./inter-latin-100.woff2);
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 200;
+    font-style: italic;
+    font-family: 'woff';
+    text-align: center;
+    text-transform:uppercase;
+}
+
+#hero{
+    color: blue;
+    background-color: lightgreen;
+}
+.lnct{
+    color:royalblue;
+} */
+
+div{
+    color: blue;
+    background-color: lightgreen;
+}

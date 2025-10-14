@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+
+}
+/* #main{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+} */
+/* #box1{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+} */
+
+/* #child1{
+    height: 150px;
+    width: 150px;
+    background-color: lightcoral;
+    border: 3px solid white;
+}
+#child2{
+    height: 150px;
+    width: 150px;
+    background-color: royalblue;
+    border: 3px solid white;
+}
+#child3{
+    height: 150px;
+    width: 150px;
+    background-color: lightgreen;
+    border: 3px solid white;
+} */
+
+
+#parent{
+    height: 100%;
+    width: 100%;
+    background-color: lightcyan;
+    position: relative;
+}
+
+.card{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    height: 350px;
+    width: 250px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px rgb(48, 47, 47);
+}
+
+.card img{
+    display: block;
+    margin: 20px auto;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+}
+.card p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin: 10px 0;
+    font-size: 18px;
+    color: gray;
+}
+
+.card h2{
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.card button{
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 30px;
+    font-size: 16px;
+    border: 2px solid royalblue;
+    background-color: royalblue;
+    color: white;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: white;
+    color: royalblue;
+}

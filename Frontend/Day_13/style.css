@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Helvetica Now Display";
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 50%;
+    width: 100%;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+#nav{
+    padding: 30px 30px;
+}
+
+#nav a{
+    color: white;
+    margin: 20px;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 300px;
+    font-weight: 400;
+    padding-left: 70px;
+}
+
+#btmleft{
+    position: absolute;
+    width: 300px;
+    bottom: 20%;
+    left: 5%;
+}
+
+#btmleft h4{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#btmleft p{
+    font-size: 18px;
+    margin-top: 5%;
+}
+
+#btmleft h3{
+    font-size: 30px;
+}

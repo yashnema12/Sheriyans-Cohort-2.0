@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;   
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+/* understanding about the boiler plate */
+
+/* #box1{
+    height: 100px;
+    width: 100px;
+    background-image: url(https://media.istockphoto.com/id/2162014024/photo/classic-american-muscle-car.jpg?s=1024x1024&w=is&k=20&c=aMYIMzO_0ZOR7uktkUChEC-xsEubyFKGYE9IH0MvpMQ=);
+    background-size: cover;
+    background-position: center;
+    transform: scale(1);
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 100px;
+} */
+
+
+
+.card{
+    height: 300px;
+    width: 350px;
+    background-color: crimson;
+    border-radius: 20px;
+    position: relative;
+    transition: all ease 1s;
+}
+
+.card img{
+    height: 100%;
+    width: 100%;
+    border-radius: 20px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.bottom{
+    height: 40%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    overflow: hidden;
+    bottom: -40%;
+}
+
+.card:hover .bottom{
+    bottom: 0%;
+    cursor: pointer;
+}
