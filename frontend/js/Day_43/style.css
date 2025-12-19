@@ -1,0 +1,25 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    background-color: white;
+    gap: 15px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    
+}
+button{
+    padding: 10px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color: red;
+}
