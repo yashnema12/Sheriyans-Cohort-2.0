@@ -1,0 +1,21 @@
+- react ?
+- cdn ki help se understand core of react dom
+- folder structure
+- components 
+- props drilling
+- tailwind css
+- functions calling
+- useHook hook
+- form handelling
+- two way binding
+- basic todo
+- api handelling
+- useEffect
+- project
+- useref
+- reactRouter Dom
+- project with it
+- Context API
+- useMemo
+- tanstack
+- redux toolkit
