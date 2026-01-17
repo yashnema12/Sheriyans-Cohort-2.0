@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+.sale{
+    background-color: red;
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+}

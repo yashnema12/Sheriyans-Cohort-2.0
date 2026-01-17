@@ -1,34 +1,50 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+import React, { useState } from 'react'
 
-function App() {
-  const [count, setCount] = useState(0)
+const App = () => {
+
+const [username, setusername] = useState('')
+const [AllUsers, setAllUsers] = useState([])
+const [Email, setEmail] = useState('')
+
+
+const submitHandler =(e)=>{
+  e.preventDefault()
+  const newUser = [...AllUsers]
+  
+  newUser.push({username,Email});
+  console.log(newUser);
+  setAllUsers(newUser);
+
+  setusername('');
+  setEmail('');
+  
+}
 
   return (
-    <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+    <div>
+      <form onSubmit={(e)=>{
+        submitHandler(e)
+      }}>
+        <input type="text" placeholder='Enter You Name'
+        value={username} 
+        onChange={(e)=>{setusername(e.target.value)}}
+        />
+
+        <input type="text" placeholder='Enter You Email'
+        value={Email} 
+        onChange={(e)=>{setEmail(e.target.value)}}
+        />
+
+        <button>submit</button>
+      </form>
+
+      {AllUsers.map((elem,idx)=>{
+        return <div key={idx}>
+          <h1 key={idx}>{elem.username}</h1>
+          <p key={idx}>{elem.Email}</p>
+        </div>
+      })}
+    </div>
   )
 }
 
