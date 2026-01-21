@@ -6,6 +6,7 @@ import About from './pages/About'
 import Courses from './pages/Courses'
 import Kodex from './pages/Kodex'
 import Kodr from './pages/Kodr'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -23,6 +24,8 @@ const App = () => {
       </Route>
 
       </Routes>
+
+      <Footer/>
     </div>
   )
 }
