@@ -1,0 +1,13 @@
+- server ko create krna
+- server ko config krna 
+- server.js file banana server start krne k liye
+- app.js se server export kro
+- server.js me app import kro require krke then listen kro
+- json me command banao
+- notes array banaya kyuki isse multiple mesg create ho skte 
+- note banane aur server pr bhejne k ly post method use krenge
+- postman me check krenge 
+- middleware use krenge jisse server req.body ke andar ka data read krega app.use(express.json())
+- post api me res.status se message show krenge with its status code
+- get method ka use krenge with status code
+- delete method ka use krenge delete /notes/:index path me : symbol index represent krega req.params    zruri hai nhi to index ni chlega 
